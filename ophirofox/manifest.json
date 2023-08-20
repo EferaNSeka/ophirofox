@@ -259,7 +259,8 @@
         "https://nouveau-europresse-com.lama.univ-amu.fr/*",
 	"https://nouveau-europresse-com.passerelle.univ-rennes1.fr/*",
       	"https://nouveau-europresse-com.ressources-electroniques.univ-lille.fr/*",
-	"https://nouveau-europresse-com.acces-distant.sciencespo.fr/*"
+	"https://nouveau-europresse-com.acces-distant.sciencespo.fr/*",
+	"https://nouveau-europresse-com.bibelec.univ-lyon2.fr/Search/Reading"
       ],
       "css": [
         "content_scripts/europresse_article.css"
@@ -344,6 +345,10 @@
         {
           "name": "Université de Lille",
           "AUTH_URL": "https://ressources-electroniques.univ-lille.fr/login?url=http://nouveau.europresse.com/access/ip/default.aspx?un=TourcoingT_1"
+        },
+	{
+          "name": "Université Lyon 2",
+          "AUTH_URL": "https://bu.univ-lyon2.fr/bibelec/titres-e/europresse"
         },
         {
           "name": "Université de Montpellier",
