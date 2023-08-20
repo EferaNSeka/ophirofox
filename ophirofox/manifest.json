@@ -245,6 +245,7 @@
         "https://nouveau-europresse-com.docelec.insa-lyon.fr/*",
         "https://nouveau-europresse-com.bnf.idm.oclc.org/*",
         "https://nouveau-europresse-com.docelec.univ-lyon1.fr/*",
+	"https://nouveau-europresse-com.bibelec.univ-lyon2.fr/"
         "https://nouveau-europresse-com.sid2nomade-2.grenet.fr/*",
         "https://nouveau-europresse-com.ezpum.scdi-montpellier.fr/*",
         "https://nouveau-europresse-com.ezproxy.u-bordeaux-montaigne.fr/*",
@@ -318,6 +319,10 @@
         {
           "name": "Université Claude Bernard Lyon 1",
           "AUTH_URL": "http://docelec.univ-lyon1.fr/login?url=https://nouveau.europresse.com/access/ip/default.aspx?un=U033081T_1"
+        },
+	{
+          "name": "Université Lumière Lyon 2",
+          "AUTH_URL": "https://bu.univ-lyon2.fr/bibelec/titres-e/europresse"
         },
         {
           "name": "Université d'Artois",
